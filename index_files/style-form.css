@@ -1,0 +1,80 @@
+.sign-up-container {
+  background: hsl(0deg 0% 4% / 90%);
+}
+
+.sign-up-container form {
+  width: 550px;
+  margin: 0 auto;
+  top: 20%;
+  padding: 30px 20px 40px 20px;
+  background: #f1f1f1;
+  border: 3px solid #232323;
+  box-shadow: 0px 1px 8px #656565;
+  border-radius: 8px;
+  color: #353535;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sign-up-container form a {
+  color: #353535;
+}
+
+/*.sign-up-container .button2 {
+  display: block;
+  width: 100%;
+  margin: 30px auto 0;
+  background: #008000;  
+  box-shadow: 0px 2px 4px #3EA03E;
+  border-radius: 3px;
+  color: #fff!important;
+}
+
+.sign-up-container .button2:hover {
+  background: #3EA03E;
+}*/
+
+.sign-up-container .button3 {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin: 30px auto 20px;
+  padding: 20px;
+  background-color: #007F3F;
+  border-color: #fff;
+  color: #fff!important;
+  box-shadow: 0px 1px 8px #656565;
+}
+
+.sign-up-container .button3:hover {
+  opacity: .8;
+}
+
+.sign-up-container .button3 span {
+  float: right;
+  font-size: 22px;
+}
+
+.sign-up-close {
+  padding: 8px 10px;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+  background: #232323;
+  box-shadow: 0px 1px 8px #656565;
+  border-radius: 50px;
+  line-height: 14px;
+  transition: all .3s linear;
+  color: #fff!important;
+}
+
+.sign-up-close:hover {
+  padding: 8px 11px;
+  opacity: .8;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 550px) {
+  .sign-up-container form {
+    width: 90%;
+    top: 15%;
+  }
+}
